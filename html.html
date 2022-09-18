@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X O game</title>
+<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,500&display=swap" rel="stylesheet">
+<script src="alert/dist/sweetalert-dev.js"></script>
+
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="game">
+            <div class="title"><span>X O</span> GAME</div>
+        
+            <div class="square" id="item1"onclick="game(this.id)"></div>
+            <div class="square" id="item2"onclick="game(this.id)"></div>
+            <div class="square" id="item3"onclick="game(this.id)"></div>
+        
+            <div class="square" id="item4"onclick="game(this.id)"></div>
+            <div class="square" id="item5"onclick="game(this.id)"></div>
+            <div class="square" id="item6"onclick="game(this.id)"></div>
+        
+            <div class="square" id="item7"onclick="game(this.id)"></div>
+            <div class="square" id="item8"onclick="game(this.id)"></div>
+            <div class="square" id="item9"onclick="game(this.id)"></div>
+        
+        </div>
+    </div>
+    <div class="cong">
+        <p>
+            You seem to be a good player, I wish you good luck always... Let's play again
+        </p>
+    </div>
+    <button class="btn" onclick="newg()">New game</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

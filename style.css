@@ -1,0 +1,83 @@
+
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+
+    }
+
+.game{
+    width: 255px;
+    text-align: center;
+    font-family: system-ui;
+    color: white;
+    margin: auto;
+    font-weight: 500;
+}
+.title{
+    background-color: #2196f3;
+    padding:5px 0;
+    margin:5px 0; 
+}
+span{
+color: rgb(0, 255, 98);
+}
+.square{
+    width: 80px;
+    height: 80px;
+    background-color: #2196f3;
+    float: left;
+    margin: 2px;
+    font-size: 50px;
+    transition: all 0.5s;
+}
+.square:hover{
+    background:#03a9f4;
+    cursor: pointer;
+border-radius:20px;
+}
+.btn{
+    border-radius: 10px;
+    font-weight: 900;
+    position: absolute;
+    top: 114px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #2196f3;
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    z-index: -1;
+
+}
+.btn:hover{
+    background:#03a9f4;
+    cursor: pointer;
+border-radius:20px;
+}
+.cong{
+    text-align: center;
+    background: darkcyan;
+    padding: 15px;
+    border-radius: 20px;
+    margin: auto;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    transition: all 0.5s;
+    display: none;
+}
+.cong.show{
+    display: block;
+}
+p{
+    font-size: 39px;
+}
